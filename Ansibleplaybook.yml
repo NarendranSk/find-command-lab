@@ -1,0 +1,30 @@
+---
+
+- name: update and install anisble on EC2 & install and start nginx
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: update package repositry
+      apt:
+        update_cache: yes
+        force_apt_get: yes
+
+    - name: upgrade all packages
+      apt:
+        upgrade: dist
+
+    - name: install ansible
+      apt:
+        name: ansible
+        state: present
+
+    - name: install nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: start nginx
+      service:
+        name: nginx
+        state: started
