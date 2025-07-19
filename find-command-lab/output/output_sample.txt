@@ -1,0 +1,182 @@
+Searching large file
+-rw-rw-r-- 1 devops devops 382M Jul 16 19:14 /home/devops/Downloads/Linux_Learning/1.log
+-rw-rw-r-- 1 devops devops 382M Jul 17 20:05 /home/devops/Downloads/Linux_Learning/dev/Bigsize.log
+Done
+Finding old files from /var/log
+Finding old files from /var/log
+Finding old files from /var/log
+-rw-r--r-- 1 root root 11K Jul  1 12:50 /var/log/fontconfig.log
+-rw-r----- 1 root adm 347 Mar 28 07:41 /var/log/apport.log.4.gz
+-rw-r--r-- 1 root root 2.9K Jul 29  2024 /var/log/alternatives.log.9.gz
+-rw-r----- 1 syslog adm 91K Jul  6 07:31 /var/log/kern.log.2.gz
+-rw-r--r-- 1 root root 0 Jul 26  2024 /var/log/unattended-upgrades/unattended-upgrades-shutdown.log
+-rw-r--r-- 1 root adm 31K Jul 29  2024 /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+-rw-r--r-- 1 root root 4.0K Jul 29  2024 /var/log/unattended-upgrades/unattended-upgrades.log
+-rw-r--r-- 1 root root 99K Jul 29  2024 /var/log/dpkg.log.9.gz
+-rw-r----- 1 root adm 1017 May  9 18:28 /var/log/apport.log.1
+-rw-r----- 1 root adm 1.7K Jul 26  2024 /var/log/installer/casper.log
+-rw-r----- 1 syslog adm 220K Jul 13 00:00 /var/log/kern.log.1
+-rw-r--r-- 1 root root 2.6K Jul 30  2024 /var/log/ubuntu-advantage.log.2.gz
+-rw-r--r-- 1 root root 5.5K Apr 24 22:12 /var/log/dpkg.log.3.gz
+-rw-r--r-- 1 root root 1.4K Jul  1 12:58 /var/log/alternatives.log.1
+-rw-r--r-- 1 root root 208 Jan 17 17:21 /var/log/dpkg.log.5.gz
+-rw-r----- 1 root adm 233 Apr 14 11:41 /var/log/apport.log.2.gz
+-rw-r--r-- 1 root root 106K Aug  8  2023 /var/log/bootstrap.log
+-rw-r--r-- 1 root root 1.9K Jun 23 18:27 /var/log/dpkg.log.2.gz
+-rw-r--r-- 1 root root 300 Jan 17 17:21 /var/log/alternatives.log.5.gz
+-rw-r--r-- 1 root root 737 Apr 24 22:12 /var/log/alternatives.log.3.gz
+-rw-r--r-- 1 root root 1.2K Aug 28  2024 /var/log/alternatives.log.8.gz
+-rw-r----- 1 root adm 0 May 11 17:17 /var/log/apport.log
+-rw-r--r-- 1 root root 51K Jul  2 06:09 /var/log/dpkg.log
+-rw-r--r-- 1 root root 22K Aug 28  2024 /var/log/dpkg.log.8.gz
+-rw-r--r-- 1 root root 162 Dec 24  2024 /var/log/alternatives.log.6.gz
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_3.log
+-rw-r--r-- 1 root root 12K Dec 22  2024 /var/log/dpkg.log.7.gz
+-rw-r----- 1 syslog adm 5.9K Jun 27 23:59 /var/log/auth.log.4.gz
+-rw-r--r-- 1 root root 69K Jun 26 20:47 /var/log/dpkg.log.1
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_2.log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_5.log
+-rw-r----- 1 syslog adm 2.1K Jun 29 18:49 /var/log/kern.log.3.gz
+-rw-r--r-- 1 root root 21K Aug  4  2024 /var/log/ubuntu-advantage.log.1
+-rw-r--r-- 1 root root 0 Jul  2 05:34 /var/log/alternatives.log
+-rw-r----- 1 syslog adm 5.7K Jul  5 23:17 /var/log/auth.log.2.gz
+-rw-r----- 1 syslog adm 1.4K Jun 28 23:25 /var/log/auth.log.3.gz
+-rw-r--r-- 1 root root 209 Jul  2 19:25 /var/log/vmware-network.9.log
+-rw------- 1 root root 2.4K Jul 12 07:31 /var/log/boot.log.5
+-rw------- 1 root root 18K Jul  3 19:18 /var/log/boot.log.7
+-rw-r--r-- 1 root root 515 Jun 23 18:27 /var/log/alternatives.log.2.gz
+-rw-r--r-- 1 root root 24K Mar 29 16:34 /var/log/dpkg.log.4.gz
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_1.log
+-rw-r--r-- 1 root root 0 Mar 23 18:58 /var/log/ubuntu-advantage-apt-hook.log
+-rw-r--r-- 1 root root 203 Jul 11 20:13 /var/log/vmware-network.8.log
+-rw-r----- 1 syslog adm 65K Jun 28 00:00 /var/log/kern.log.4.gz
+-rw-r--r-- 1 root root 702 Dec 22  2024 /var/log/alternatives.log.7.gz
+-rw-r--r-- 1 root root 0 Sep 25  2024 /var/log/ubuntu-advantage.log
+-rw-r--r-- 1 root root 2.7K Dec 22  2024 /var/log/apt/history.log.7.gz
+-rw-r--r-- 1 root root 5.6K Mar 29 16:34 /var/log/apt/history.log.4.gz
+-rw-r--r-- 1 root root 29K Jul 29  2024 /var/log/apt/history.log.9.gz
+-rw-r--r-- 1 root root 258 Jul  1 12:58 /var/log/apt/history.log.1.gz
+-rw-r----- 1 root adm 4.1K Jun 26 20:48 /var/log/apt/term.log.2.gz
+-rw-r----- 1 root adm 685 Dec 29  2024 /var/log/apt/term.log.6.gz
+-rw-r----- 1 root adm 4.0K Apr 24 22:12 /var/log/apt/term.log.3.gz
+-rw-r----- 1 root adm 657 Jul  1 12:58 /var/log/apt/term.log.1.gz
+-rw-r----- 1 root adm 412 Jan 17 17:21 /var/log/apt/term.log.5.gz
+-rw-r--r-- 1 root root 2.1K Jun 26 20:34 /var/log/apt/history.log.2.gz
+-rw-r----- 1 root adm 15K Mar 29 16:34 /var/log/apt/term.log.4.gz
+-rw-r--r-- 1 root root 69K Jul  2 06:09 /var/log/apt/eipp.log.xz
+-rw-r--r-- 1 root root 1.9K Apr 24 22:12 /var/log/apt/history.log.3.gz
+-rw-r----- 1 root adm 995 Jul  2 06:09 /var/log/apt/term.log
+-rw-r----- 1 root adm 7.0K Dec 22  2024 /var/log/apt/term.log.7.gz
+-rw-r--r-- 1 root root 140 Jan 17 17:21 /var/log/apt/history.log.5.gz
+-rw-r--r-- 1 root root 191 Jul  2 06:09 /var/log/apt/history.log
+-rw-r----- 1 root adm 13K Aug 28  2024 /var/log/apt/term.log.8.gz
+-rw-r--r-- 1 root root 4.8K Aug 28  2024 /var/log/apt/history.log.8.gz
+-rw-r--r-- 1 root root 216 Dec 29  2024 /var/log/apt/history.log.6.gz
+-rw-r----- 1 root adm 7.9K Jul 29  2024 /var/log/apt/term.log.9.gz
+-rw-r--r-- 1 root root 510 Dec 29  2024 /var/log/dpkg.log.6.gz
+-rw------- 1 root root 7.1K Jul 11 20:13 /var/log/boot.log.6
+-rw-r----- 1 syslog adm 54K Jul 12 23:59 /var/log/auth.log.1
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_4.log
+-rw-r--r-- 1 root root 1.1K Mar 29 16:33 /var/log/alternatives.log.4.gz
+-rw-r----- 1 root adm 321 Apr 10 11:40 /var/log/apport.log.3.gz
+-rw-r----- 1 root adm 119 Mar 23 19:27 /var/log/apport.log.5.gz
+Finding old files from /var/log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_3.log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_2.log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_5.log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_1.log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_4.log
+Finding old files from /var/log
+-rw-r--r-- 1 root root 11K Jul  1 12:50 /var/log/fontconfig.log
+-rw-r----- 1 root adm 347 Mar 28 07:41 /var/log/apport.log.4.gz
+-rw-r--r-- 1 root root 2.9K Jul 29  2024 /var/log/alternatives.log.9.gz
+-rw-r----- 1 syslog adm 91K Jul  6 07:31 /var/log/kern.log.2.gz
+-rw-r--r-- 1 root root 0 Jul 26  2024 /var/log/unattended-upgrades/unattended-upgrades-shutdown.log
+-rw-r--r-- 1 root adm 31K Jul 29  2024 /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+-rw-r--r-- 1 root root 4.0K Jul 29  2024 /var/log/unattended-upgrades/unattended-upgrades.log
+-rw-r--r-- 1 root root 99K Jul 29  2024 /var/log/dpkg.log.9.gz
+-rw-r----- 1 root adm 1017 May  9 18:28 /var/log/apport.log.1
+-rw-r----- 1 root adm 1.7K Jul 26  2024 /var/log/installer/casper.log
+-rw-r--r-- 1 root root 2.6K Jul 30  2024 /var/log/ubuntu-advantage.log.2.gz
+-rw-r--r-- 1 root root 5.5K Apr 24 22:12 /var/log/dpkg.log.3.gz
+-rw-r--r-- 1 root root 1.4K Jul  1 12:58 /var/log/alternatives.log.1
+-rw-r--r-- 1 root root 208 Jan 17 17:21 /var/log/dpkg.log.5.gz
+-rw-r----- 1 root adm 233 Apr 14 11:41 /var/log/apport.log.2.gz
+-rw-r--r-- 1 root root 106K Aug  8  2023 /var/log/bootstrap.log
+-rw-r--r-- 1 root root 1.9K Jun 23 18:27 /var/log/dpkg.log.2.gz
+-rw-r--r-- 1 root root 300 Jan 17 17:21 /var/log/alternatives.log.5.gz
+-rw-r--r-- 1 root root 737 Apr 24 22:12 /var/log/alternatives.log.3.gz
+-rw-r--r-- 1 root root 1.2K Aug 28  2024 /var/log/alternatives.log.8.gz
+-rw-r----- 1 root adm 0 May 11 17:17 /var/log/apport.log
+-rw-r--r-- 1 root root 51K Jul  2 06:09 /var/log/dpkg.log
+-rw-r--r-- 1 root root 22K Aug 28  2024 /var/log/dpkg.log.8.gz
+-rw-r--r-- 1 root root 162 Dec 24  2024 /var/log/alternatives.log.6.gz
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_3.log
+-rw-r--r-- 1 root root 12K Dec 22  2024 /var/log/dpkg.log.7.gz
+-rw-r----- 1 syslog adm 5.9K Jun 27 23:59 /var/log/auth.log.4.gz
+-rw-r--r-- 1 root root 69K Jun 26 20:47 /var/log/dpkg.log.1
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_2.log
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_5.log
+-rw-r----- 1 syslog adm 2.1K Jun 29 18:49 /var/log/kern.log.3.gz
+-rw-r--r-- 1 root root 21K Aug  4  2024 /var/log/ubuntu-advantage.log.1
+-rw-r--r-- 1 root root 0 Jul  2 05:34 /var/log/alternatives.log
+-rw-r----- 1 syslog adm 5.7K Jul  5 23:17 /var/log/auth.log.2.gz
+-rw-r----- 1 syslog adm 1.4K Jun 28 23:25 /var/log/auth.log.3.gz
+-rw-r--r-- 1 root root 209 Jul  2 19:25 /var/log/vmware-network.9.log
+-rw------- 1 root root 18K Jul  3 19:18 /var/log/boot.log.7
+-rw-r--r-- 1 root root 515 Jun 23 18:27 /var/log/alternatives.log.2.gz
+-rw-r--r-- 1 root root 24K Mar 29 16:34 /var/log/dpkg.log.4.gz
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_1.log
+-rw-r--r-- 1 root root 0 Mar 23 18:58 /var/log/ubuntu-advantage-apt-hook.log
+-rw-r----- 1 syslog adm 65K Jun 28 00:00 /var/log/kern.log.4.gz
+-rw-r--r-- 1 root root 702 Dec 22  2024 /var/log/alternatives.log.7.gz
+-rw-r--r-- 1 root root 0 Sep 25  2024 /var/log/ubuntu-advantage.log
+-rw-r--r-- 1 root root 2.7K Dec 22  2024 /var/log/apt/history.log.7.gz
+-rw-r--r-- 1 root root 5.6K Mar 29 16:34 /var/log/apt/history.log.4.gz
+-rw-r--r-- 1 root root 29K Jul 29  2024 /var/log/apt/history.log.9.gz
+-rw-r--r-- 1 root root 258 Jul  1 12:58 /var/log/apt/history.log.1.gz
+-rw-r----- 1 root adm 4.1K Jun 26 20:48 /var/log/apt/term.log.2.gz
+-rw-r----- 1 root adm 685 Dec 29  2024 /var/log/apt/term.log.6.gz
+-rw-r----- 1 root adm 4.0K Apr 24 22:12 /var/log/apt/term.log.3.gz
+-rw-r----- 1 root adm 657 Jul  1 12:58 /var/log/apt/term.log.1.gz
+-rw-r----- 1 root adm 412 Jan 17 17:21 /var/log/apt/term.log.5.gz
+-rw-r--r-- 1 root root 2.1K Jun 26 20:34 /var/log/apt/history.log.2.gz
+-rw-r----- 1 root adm 15K Mar 29 16:34 /var/log/apt/term.log.4.gz
+-rw-r--r-- 1 root root 69K Jul  2 06:09 /var/log/apt/eipp.log.xz
+-rw-r--r-- 1 root root 1.9K Apr 24 22:12 /var/log/apt/history.log.3.gz
+-rw-r----- 1 root adm 995 Jul  2 06:09 /var/log/apt/term.log
+-rw-r----- 1 root adm 7.0K Dec 22  2024 /var/log/apt/term.log.7.gz
+-rw-r--r-- 1 root root 140 Jan 17 17:21 /var/log/apt/history.log.5.gz
+-rw-r--r-- 1 root root 191 Jul  2 06:09 /var/log/apt/history.log
+-rw-r----- 1 root adm 13K Aug 28  2024 /var/log/apt/term.log.8.gz
+-rw-r--r-- 1 root root 4.8K Aug 28  2024 /var/log/apt/history.log.8.gz
+-rw-r--r-- 1 root root 216 Dec 29  2024 /var/log/apt/history.log.6.gz
+-rw-r----- 1 root adm 7.9K Jul 29  2024 /var/log/apt/term.log.9.gz
+-rw-r--r-- 1 root root 510 Dec 29  2024 /var/log/dpkg.log.6.gz
+-rw-rw-r-- 1 devops devops 50M Jul  6 20:02 /var/log/3dayold_4.log
+-rw-r--r-- 1 root root 1.1K Mar 29 16:33 /var/log/alternatives.log.4.gz
+-rw-r----- 1 root adm 321 Apr 10 11:40 /var/log/apport.log.3.gz
+-rw-r----- 1 root adm 119 Mar 23 19:27 /var/log/apport.log.5.gz
+Finding insecur files
+total 12K
+-rwxrwxr-x 1 devops devops   0 Jul 16 20:24 auto_clean_temp.sh
+-rwxrwxr-x 1 devops devops   0 Jul 16 20:24 archive_old_file.sh
+-rwxrwxr-x 1 devops devops 393 Jul 17 20:29 find_old_logs.sh
+-rwxrwxr-x 1 devops devops 532 Jul 17 20:31 find_large_file.sh
+-rwxrwxr-x 1 devops devops 382 Jul 17 20:45 find_insecure_permission.sh
+done
+Finding insecur files
+-rwxrwxrwx 1 devops devops  128 Dec 23  2024 /home/devops/Downloads/Linux_Learning/dev/1.sh
+-rwxrwxrwx 1 devops devops  209 Dec 26  2024 /home/devops/Downloads/Linux_Learning/shellscript/nodehealth.sh
+-rwxrwxrwx 1 devops devops  258 Dec 27  2024 /home/devops/Downloads/Linux_Learning/shellscript/scripterrorfinding.sh
+-rwxrwxrwx 1 devops devops  220 Jan 13  2025 /home/devops/Downloads/Linux_Learning/shellscript/scripterrorfinding1.sh
+-rwxrwxrwx 1 devops devops  10M Jul  6 19:57 /home/devops/Downloads/Linux_Learning/file_5.txt
+-rwxrwxrwx 1 devops devops 191M Jul 16 19:13 /home/devops/Downloads/Linux_Learning/4.log
+-rwxrwxrwx 1 devops devops 382M Jul 16 19:14 /home/devops/Downloads/Linux_Learning/1.log
+-rwxrwxrwx 1 devops devops  20M Jul 16 19:38 /home/devops/Downloads/Linux_Learning/dummy_3.txt
+done
+finding old file and moving into archive folder
+finding old file and moving into archive folder
+done
+Deleting old files
+done
